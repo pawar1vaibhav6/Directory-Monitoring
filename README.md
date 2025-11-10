@@ -35,7 +35,7 @@ A simple Python project that continuously monitors a specified directory and log
 
 2. Navigate to the project directory:
    ```bash
-   cd directory-monitor
+   cd Directory-Monitoring
 
 3. Run the Python script:
    ```bash
