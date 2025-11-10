@@ -40,10 +40,11 @@ def monitoring(path):
         logger.error(e)
 
 def main():
-    path = r'C:\Users\VAIBHAV\Documents\Data Science\trial'
+    path = input("Enter directory path: ")
     os.chdir(path)
     logger.info('{} monitoring started'.format(path.split('\\')[-1]))
     monitoring(path)
 
 if __name__=='__main__':
+
     main()
